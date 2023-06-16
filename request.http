@@ -1,0 +1,71 @@
+### Perform `MULTIPLY` operation
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10,
+  "operation": "MULTIPLY"
+}
+
+
+### Perform `ADD` operation
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10,
+  "operation": "ADD"
+}
+
+### Perform `DIVIDE` operation
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10,
+  "operation": "DIVIDE"
+}
+
+### Perform `SUBTRACT` operation
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10,
+  "operation": "SUBTRACT"
+}
+
+
+### Perform `INVALID` operation
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10,
+  "operation": "INVALID"
+}
+
+### Perform `DIVIDE` operation as second number 0
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 0,
+  "operation": "DIVIDE"
+}
+
+### Invalid request
+POST https://msj76kui51.execute-api.eu-north-1.amazonaws.com/calculate
+Content-Type: application/json
+
+{
+  "first_number": 100,
+  "second_number": 10
+}
+
