@@ -1,7 +1,7 @@
 # Calculator API
-This service allows you to operform basic mathematical operations like ADD, SUBTRACT, MULTIPLY, and DIVIDE. 
+This service allows you to perform basic mathematical operations like ADD, SUBTRACT, MULTIPLY, and DIVIDE. 
 
-Calculator api is a serverless, event-driven compute service based on AWS Lambda. This repository contains AWS lambda function and cloud resource provisioning (IOC) configuration.  
+Calculator API is a serverless, event-driven compute service based on AWS Lambda. This repository contains AWS lambda function and cloud resource provisioning (IOC) configuration.  
 
 # Development
 
